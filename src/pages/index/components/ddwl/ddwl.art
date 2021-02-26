@@ -1,0 +1,18 @@
+<div class="hd clearfix">
+    <h2>当地玩乐</h2>
+    <em>像当地人一样，体验本土的吃喝玩乐</em>
+    <nav>
+        <ul>
+            <li class="current"><a href="">国内</a></li>
+            <li><a href="">日本</a></li>
+            <li><a href="">瑞士</a></li>
+            <li><a href="">新西兰</a></li>
+            <li><a href="">澳大利亚</a></li>
+            <li><a href="">柬埔寨</a></li>
+            <li><a href="">泰国</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="bd">
+    <% include('../../../../components/loading/loading.art',{inline:true,text:'你卡了！'}) %>
+</div>

@@ -1,0 +1,12 @@
+.zsj {
+    background-color: #f7f7f7;
+}
+.zsj .center_wrap .bd .more-grid {
+    background-image: linear-gradient(180deg, #BD5EE8 0%, #832ABB 98%);
+}
+.zsj .center_wrap .bd .more-grid ul {
+    padding-left: 48px;
+}
+.zsj .loading{
+    padding-top: 200px;
+}

@@ -1,0 +1,65 @@
+footer .footer-part1 {
+    height: 220px;
+    background-color: #f7f7f7;
+    padding-top: 36px;
+    box-sizing: border-box;
+}
+footer .footer-part1 .center_wrap .quick_links ul li {
+    float: left;
+    font-size: 18px;
+    line-height: 18px;
+    padding-right: 26px;
+    margin-right: 27px;
+    border-right: 1px solid #1c1f21;
+}
+footer .footer-part1 .center_wrap .quick_links ul li:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+footer .footer-part1 .center_wrap .quick_links ul li a {
+    color: #1c1f21;
+}
+footer .footer-part1 .center_wrap .protect {
+    padding-top: 40px;
+}
+footer .footer-part1 .center_wrap .protect dl {
+    float: left;
+    position: relative;
+    width: 289px;
+    margin-right: 30px;
+    padding-left: 75px;
+}
+footer .footer-part1 .center_wrap .protect dl:last-child {
+    margin-right: 0;
+}
+footer .footer-part1 .center_wrap .protect dl dt {
+    font-size: 16px;
+    color: #1c1f21;
+    font-weight: 700;
+    line-height: 24px;
+}
+footer .footer-part1 .center_wrap .protect dl dd {
+    font-size: 14px;
+    color: #1c1f21;
+    line-height: 22px;
+    margin-top: 8px;
+}
+footer .footer-part1 .center_wrap .protect dl::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 60px;
+    background-image: url(images/XUEBI1.png);
+}
+footer .footer-part1 .center_wrap .protect dl.txfw::before {
+    background-position: -88px -74px;
+}
+footer .footer-part1 .center_wrap .protect dl.ccsx::before {
+    background-position: -89px -5px;
+}
+footer .footer-part1 .center_wrap .protect dl.axph::before {
+    background-position: -89px -5px;
+}

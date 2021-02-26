@@ -1,0 +1,12 @@
+<div class="hd clearfix">
+    <h2>最世界·深度旅行</h2>
+    <em>摆脱千篇一律的旅行，探索属于自己的世界</em>
+    <nav>
+        <ul>
+            <li class="current"><a href="">城市CityWalk</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="bd">
+    <% include('../../../../components/loading/loading.art',{inline:true,text:'你卡了！'}) %>
+</div>

@@ -1,0 +1,11 @@
+<div class="center_wrap">
+    <ul>
+        {{each items}}
+        <li>
+            <a href="">
+                <img src="{{$value.url}}" alt="">
+            </a>
+        </li>
+        {{/each}}
+    </ul>
+</div>

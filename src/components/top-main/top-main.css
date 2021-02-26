@@ -1,0 +1,42 @@
+.site_top .top_main .center_wrap {
+    height: 36px;
+    padding: 21px 0;
+}
+.site_top .top_main .center_wrap h1 {
+    float: left;
+    font-size: 24px;
+    color: #20bd9a;
+    line-height: 36px;
+    font-weight: 700;
+    margin-right: 20px;
+}
+.site_top .top_main .center_wrap .search_box {
+    float: left;
+    /* 给了宽度缩放时候有问题 */
+    /* width: 405px; */
+    height: 30px;
+    min-height: 30px;
+    padding-top: 3px;
+}
+.site_top .top_main .center_wrap .search_box input {
+    float: left;
+    width: 352px;
+    height: 28px;
+    padding-left: 20px;
+    border: 1px solid #20bd9a;
+    border-right: none;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    font-size: 14px;
+
+}
+.site_top .top_main .center_wrap .search_box .btn {
+    float: left;
+    width: 32px;
+    height: 30px;
+    background-color: #20bd9a;
+    border-radius: 0 4px 4px 0;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+}

@@ -1,0 +1,6 @@
+<div class="hd">
+    <h2>特色当地体验</h2>
+</div>
+<div class="bd">
+    <% include('../../../../components/loading/loading.art',{inline:true,text:'你卡了！'}) %>
+</div>

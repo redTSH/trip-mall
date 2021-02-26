@@ -1,0 +1,70 @@
+<div class="col">
+    <a href="">
+        <div class="big-grid">
+            <img src="{{one.url}}" alt="">
+            <div class="info">
+                <p>{{one.title}}</p>
+                <div class="downside">
+                    <p class="tag">{{one.type}}</p>
+                    <p class="price"><strong>{{one.price}}</strong>元起</p>
+                </div>
+            </div>
+        </div>
+    </a>
+    <a href="">
+        <div class="nor-grid">
+            <div class="picbox">
+                <img src="{{items[0].url}}" alt="">
+            </div>
+            <div class="wordsbox">{{items[0].title}}</div>
+        </div>
+    </a>
+</div>
+<div class="col">
+    <a href="">
+        <div class="nor-grid">
+            <div class="picbox">
+                <img src="{{items[1].url}}" alt="">
+            </div>
+            <div class="wordsbox">{{items[1].title}}</div>
+        </div>
+    </a>
+    <a href="">
+        <div class="nor-grid">
+            <div class="picbox">
+                <img src="{{items[2].url}}" alt="">
+            </div>
+            <div class="wordsbox">{{items[2].title}}</div>
+        </div>
+    </a>
+    <a href="">
+        <div class="nor-grid">
+            <div class="picbox">
+                <img src="{{items[3].url}}" alt="">
+            </div>
+            <div class="wordsbox">{{items[3].title}}</div>
+        </div>
+    </a>
+</div>
+<div class="col">
+    <a href="">
+        <div class="nor-grid">
+            <div class="picbox">
+                <img src="{{items[4].url}}" alt="">
+            </div>
+            <div class="wordsbox">{{items[4].title}}</div>
+        </div>
+    </a>
+    <a href="">
+        <div class="more-grid">
+            <p>查看更多</p>
+            <p>{{more.title}}</p>
+            <span class="iconfont">&#xe619;</span>
+            <ul>
+                {{each more.items}}
+                <li>{{$value}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    </a>
+</div>

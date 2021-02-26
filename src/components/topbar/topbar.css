@@ -1,0 +1,92 @@
+.site_top .top_bar {
+    height: 32px;
+    background-color: #2a2a2a;
+    color: #fff;
+    line-height: 32px;
+}
+
+.site_top .top_bar .center_wrap .shortcut_links {
+    float: left;
+}
+.site_top .top_bar .center_wrap .shortcut_links>ul>li {
+    float: left;
+    margin-right: 18px;
+    font-size: 14px;
+}
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu {
+    position: relative;
+    padding-right: 12px;
+}
+/* 顶部快捷导航小箭头 */
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu:hover .arrow {
+    transform: rotate(180deg);
+}
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu .arrow {
+    position: absolute;
+    top: 50%;
+    right: -2px;
+    margin-top: -6px;
+    width: 12px;
+    height: 12px;
+    transition: transform .3s ease 0s;
+}
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu .arrow i {
+    position: absolute;
+    top: 1px;
+    right: 3px;
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    transform: rotate(45deg);
+}
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu .arrow em {
+    position: absolute;
+    top: -1px;
+    right: 3px;
+    width: 6px;
+    height: 6px;
+    background-color: #2a2a2a;
+    transform: rotate(45deg);
+}
+/* 顶部快捷导航弹出菜单栏 */
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu .menu {
+    display: none;
+    position: absolute;
+    top: 29px;
+    left: 0;
+    line-height: 18px;
+    font-size: 12px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20);
+    padding: 6px 8px;
+    z-index: 999;
+}
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu .sqmenu {
+    width: 121px;
+}
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu .scmenu {
+    width: 76px;
+}
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu .jdmsmenu {
+    width: 64px;
+}
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu .menu a {
+    color: #1c1f21;
+    font-weight: 600;
+}
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu .menu a:hover {
+    color: #20bd9a;
+}
+.site_top .top_bar .center_wrap .shortcut_links>ul>li.have_menu:hover .menu {
+    display: block;
+}
+/* 顶部小工具 */
+.site_top .top_bar .center_wrap .tools {
+    float: right;
+}
+.site_top .top_bar .center_wrap .tools a,
+.site_top .top_bar .center_wrap .tools span {
+    font-size: 14px;
+    margin-left: 16px;
+    line-height: 32px;
+}

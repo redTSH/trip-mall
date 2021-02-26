@@ -1,0 +1,19 @@
+.gty .center_wrap .bd .more-grid {
+    background-image: linear-gradient(180deg, #41D8E9 0%, #3685EA 98%);
+}
+.gty .center_wrap .bd .more-grid ul {
+    padding-left: 70px;
+}
+.gty .center_wrap .bd .big-grid img{
+    width: 100%;
+    height: 100%;
+}
+.gty .center_wrap .bd .big-grid .circle p{
+    width: 2em;
+    text-align: center;
+    padding-left: 33px;
+    padding-top: 7px;
+}
+.gty .loading{
+    padding-top: 200px;
+}

@@ -1,0 +1,19 @@
+<ul>
+    {{each items}}
+    <li>
+        <a href="">
+            <div class="picbox">
+                <img src="{{$value.url}}" alt="">
+            </div>
+            <div class="wordsbox">
+                <p class="item-name">{{$value.title}}</p>
+                <p>
+                    <span class="point">★{{$value.score}}</span>
+                    <span class="commet">({{$value.comment_counts}}评价) {{$value.join_counts}}人参加过</span>
+                </p>
+            </div>
+        </a>
+    </li>
+    {{/each}}
+
+</ul>

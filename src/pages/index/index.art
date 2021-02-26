@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>慕云游 - 自由行、机票、酒店、旅游攻略</title>
+    <meta name="Keywords" content="机票、酒店、旅游攻略、签证、出国、自由行">
+    <meta name="Description" content="慕云游商城有十多年旅游行业经验，为您提供全方位旅游服务。">
+
+</head>
+
+<body>
+    <!-- 头部模块 -->
+    <header class="site_top">
+        <!-- 顶部导航 -->
+        {{include '../../components/topbar/topbar.art'}}
+        <!-- 头部主导航块 -->
+        {{include '../../components/main-nav/main-nav.art'}}
+        <!-- 头部主要内容模块 -->
+        {{include '../../components/top-main/top-main.art'}}
+    </header>
+    <!-- banner模块 -->
+    <div class="banner" id="banner">
+        <!-- 轮播图 -->
+        <div id="layout">
+            <% include('../../components/loading/loading.art',{inline:true,text:'你卡了！'}) %>
+        </div>
+        <!-- 中心导航 -->
+        <div class="center_wrap">
+            {{include './components/btn/btn.art'}}
+            {{include './components/aside-nav/aside-nav.art'}}
+        </div>
+    </div>
+    <!-- 推荐模块 -->
+    <div class="spec_edt clearfix" id="spec_edt">
+        <% include('../../components/loading/loading.art',{inline:ture,text:'你卡了！'}) %>
+    </div>
+    <!-- 新鲜甩尾模块 -->
+    <section class="xxsw title-part">
+        <div class="center_wrap">
+            {{include './components/xxsw/xxsw.art'}}
+        </div>
+    </section>
+    <!-- 机酒自由行 -->
+    <section class="jjzyx title-part common-part">
+        <div class="center_wrap">
+            {{include './components/jjzyx/jjzyx.art'}}
+        </div>
+    </section>
+    <!-- 当地玩乐 -->
+    <section class="ddwl title-part">
+        <div class="center_wrap">
+            {{include './components/ddwl/ddwl.art'}}
+        </div>
+    </section>
+    <!-- 特色当地体验 -->
+    <section class="ddts title-part">
+        <div class="center_wrap">
+            {{include './components/tsddty/tsddty.art'}}
+        </div>
+    </section>
+    <!-- 最世界·深度旅行 -->
+    <!-- 复制机酒自由行模块更改类名,达到复用样式效果 -->
+    <section class="zsj title-part common-part">
+        <div class="center_wrap">
+            {{include './components/zsj/zsj.art'}}
+        </div>
+    </section>
+    <!-- 跟团/半自助游 -->
+    <!-- 复制机酒自由行模块更改类名,达到复用样式效果 -->
+    <section class="gty title-part common-part">
+        <div class="center_wrap">
+            {{include './components/gty/gty.art'}}
+        </div>
+    </section>
+    <footer>
+        <div class="footer-part1">
+            <div class="center_wrap">
+                {{include '../../components/footer-nav/footer-nav.art'}}
+            </div>
+        </div>
+        <div class="footer-part2">
+            <div class="center_wrap">
+                {{include '../../components/bottom-bar/bottom-bar.art'}}
+            </div>
+        </div>
+    </footer>
+    <!-- 返回顶部按钮 -->
+    {{include '../../components/backtotop/backtotop.art'}}
+
+</body>
+
+</html>

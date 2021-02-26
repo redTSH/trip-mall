@@ -1,0 +1,74 @@
+.site_top .main_nav {
+    height: 40px;
+    background-color: #20bd9a;
+}
+.site_top .main_nav .center_wrap ul li {
+    float: left;
+    margin-right: 18px;
+}
+.site_top .main_nav .center_wrap ul li a {
+    line-height: 40px;
+    font-size: 16px;
+}
+.site_top .main_nav .center_wrap ul li.have_menu {
+    position: relative;
+    padding-right: 16px;
+}
+.site_top .main_nav .center_wrap ul li.have_menu::after {
+    content: '';
+    position: absolute;
+    top: 18px;
+    right: 2px;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: #fff;
+    border-bottom: none;
+    transition: transform .3s ease 0s;
+}
+.site_top .main_nav .center_wrap ul li.have_menu:hover::after {
+    transform: rotate(180deg);
+}
+.site_top .main_nav .center_wrap ul li.have_menu .menu {
+    display: none;
+    position: absolute;
+    top: 34px;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.20);
+    padding: 6px 8px;
+    z-index: 999;
+}
+.site_top .main_nav .center_wrap ul li.have_menu:hover .menu {
+    display: block;
+}
+.site_top .main_nav .center_wrap ul li.have_menu .menu dt {
+    font-size: 16px;
+    color: #1C1F21;
+    line-height: 22px;
+    font-weight: 700;
+}
+.site_top .main_nav .center_wrap ul li.have_menu .menu dd {
+    height: 20px;
+    line-height: 18px;
+}
+.site_top .main_nav .center_wrap ul li.have_menu .menu a {
+    font-size: 12px;
+    color: #1C1F21;
+    line-height: 18px; 
+}
+.site_top .main_nav .center_wrap ul li.have_menu .menu a:hover {
+    color: #20bd9a;
+}
+.site_top .main_nav .center_wrap ul li.have_menu .jjzyxmenu {
+    width: 160px;
+}
+.site_top .main_nav .center_wrap ul li.have_menu .gtymenu {
+    width: 106px;
+}
+.site_top .main_nav .center_wrap ul li.have_menu .ddwlmenu {
+    width: 170px;
+}
+.site_top .main_nav .center_wrap ul li.have_menu .sdlymenu {
+    width: 118px;
+}

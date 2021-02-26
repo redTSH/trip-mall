@@ -1,0 +1,38 @@
+.xxsw {
+    height: 738px;
+    background-color: #f7f7f7;
+}
+.xxsw .center_wrap {
+    padding: 40px 0;
+}
+/* 提取公共标题样式 */
+
+.xxsw .center_wrap .hd {
+    margin-bottom: 32px;
+}
+.xxsw .center_wrap .hd h2 {
+    float: left;   
+}
+.xxsw .center_wrap ul li {
+    float: left;
+    width: 264px;
+    height: 270px;
+    margin-right: 32px;
+    background-color: #fff;
+    margin-bottom: 32px;
+}
+.xxsw .center_wrap ul li:nth-child(4n) {
+    margin-right: 0;
+}
+.xxsw .center_wrap ul li a .words_box {
+    font-size: 14px;
+    color: #1c1f21;
+    padding: 20px 14px 0;
+    font-weight: 700;
+}
+.xxsw .center_wrap ul li:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.20);
+}
+.xxsw .loading{
+    padding-top: 260px;
+}

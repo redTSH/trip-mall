@@ -1,0 +1,23 @@
+.site_top {
+    height: 150px;
+    min-width: 1152px;
+}
+
+.banner {
+    position: relative;
+    min-width: 1152px;
+    overflow: hidden;
+}
+
+.banner .center_wrap {
+    position: absolute;
+    width: 1152px;
+    left: 50%;
+    top: 0;
+    margin-left: -576px;
+    height: 100%;
+}
+.banner .loading{
+    padding-top: 250px;
+    padding-bottom: 250px;
+}

@@ -1,0 +1,88 @@
+.ddwl {
+    height: 546px;
+    background-color: #f7f7f7;
+    padding-top: 40px;
+}
+.ddwl .center_wrap .hd h2 {
+    float: left;
+}
+.ddwl .center_wrap .bd {
+    margin-top: 32px;
+}
+.ddwl .center_wrap .bd .col {
+    float: left;
+    margin-right: 30px;
+}
+.ddwl .center_wrap .bd .col:last-child {
+    margin-right: 0;
+}
+.ddwl .center_wrap .bd .big-grid {
+    position: relative;
+    width: 364px;
+    height: 270px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+}
+.ddwl .center_wrap .bd .big-grid .info {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 364px;
+    height: 104px;
+    color: #fff;
+    font-size: 14px;
+    padding: 17px 21px 0;
+    background-color:rgba(28, 31, 33, .55);
+    box-sizing: border-box;
+}
+.ddwl .center_wrap .bd .big-grid .info .downside {
+    margin-top: 4px;
+}
+.ddwl .center_wrap .bd .big-grid .info .downside .tag {
+    float: left;
+}
+.ddwl .center_wrap .bd .big-grid .info .downside .price {
+    float: right;
+}
+.ddwl .center_wrap .bd .big-grid .info .downside .price strong {
+    color: #36dfba;
+}
+.ddwl .center_wrap .bd .nor-grid {
+    width: 364px;
+    height: 120px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.08);
+}
+.ddwl .center_wrap .bd .nor-grid .picbox {
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 18px;
+}
+.ddwl .center_wrap .bd .nor-grid .wordsbox {
+    font-size: 14px;
+    padding: 27px 18px;
+    color: #1c1f21;
+}
+.ddwl .center_wrap .bd .more-grid {
+    width: 364px;
+    height: 270px;
+    padding-top: 32px;
+    background-image: linear-gradient(180deg, #FF6374 1%, #FF7368 98%);
+}
+.ddwl .center_wrap .bd .more-grid span {
+    left:158px
+}
+.ddwl .center_wrap .bd .more-grid ul {
+    padding-left: 35px;
+}
+.ddwl .center_wrap .bd .big-grid:hover,
+.ddwl .center_wrap .bd .nor-grid:hover,
+.ddwl .center_wrap .bd .more-grid:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.20);
+}
+
+.ddwl .loading{
+    padding-top: 200px;
+}

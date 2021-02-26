@@ -1,0 +1,79 @@
+/* <div class="slider">
+    <ul class="slider-content">
+        <li class="slider-item">
+            <a href="javascript:;">
+                <img src="./images/banner1.jpg" alt="" class="slider-img">
+            </a>
+        </li>
+        <li class="slider-item">
+            <a href="javascript:;">
+                <img src="./images/banner2.jpg" alt="" class="slider-img">
+            </a>
+        </li>
+        <li class="slider-item">
+            <a href="javascript:;">
+                <img src="./images/banner3.jpg" alt="" class="slider-img">
+            </a>
+        </li>
+        <li class="slider-item">
+            <a href="javascript:;">
+                <img src="./images/banner4.jpg" alt="" class="slider-img">
+            </a>
+        </li>
+        <li class="slider-item">
+            <a href="javascript:;">
+                <img src="./images/banner5.jpg" alt="" class="slider-img">
+            </a>
+        </li>
+    </ul>
+</div> */
+
+.slider,
+.slider-content,
+.slider-item,
+.slider-img{
+    width: 100%;
+    height: 100%;
+}
+.slider{
+    overflow: hidden;
+    /* max-width: 2000px; */
+    margin: 0 auto;
+}
+.slider-item{
+    float: left;
+}
+.slider-img{
+    vertical-align: top;
+}
+.slider-animation{
+    transition-property: transform;
+    transition-duration: 0ms;
+}
+
+.banner .circles {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    width: 160px;
+    height: 20px;
+    margin-left: -75px;
+    z-index: 999;
+}
+.banner .circles li {
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #ccc;
+    margin-right: 10px;
+    border-radius: 10px;
+    transition: all .5s linear 0s;
+    cursor: pointer;
+}
+.banner .circles li:last-child {
+    margin-right: 0;
+}
+.banner .circles li.current {
+    background-color: #20bd9a;
+    width: 40px;
+}

@@ -1,0 +1,38 @@
+<ul>
+    <li class="big-grid">
+        <a href="">
+            <img src="{{one.url}}" alt="">
+            <!-- <span class="tag"></span> -->
+            <div class="mask"></div>
+            <div class="circle">
+                <p>{{one.tag}}</p>
+                <p>{{one['extra-tag']}}</p>
+            </div>
+            <div class="words">{{one.title}}<br />{{one['extra-info']}}</div>
+        </a>
+    </li>
+    {{each items}}
+    <li class="pro-grid">
+        <a href="">
+            <div class="picbox">
+                <img src="{{$value.url}}" alt="">
+                <!-- <span class="tag">跟团游</span> -->
+            </div>
+            <div class="wordsbox">{{$value.title}}</div>
+        </a>
+    </li>
+    {{/each}}
+
+    <li class="more-grid">
+        <a href="">
+            <p>查看更多</p>
+            <p>{{more.title}}</p>
+            <span class="iconfont">&#xe619;</span>
+            <ul>
+                {{each more.items}}
+                <li>{{$value}}</li>
+                {{/each}}
+            </ul>
+        </a>
+    </li>
+</ul>

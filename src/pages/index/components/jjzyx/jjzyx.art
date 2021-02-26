@@ -1,0 +1,18 @@
+<div class="hd clearfix">
+    <h2>机酒自由行</h2>
+    <em>挑选全球机票、酒店、邮轮等旅行产品</em>
+    <nav>
+        <ul>
+            <li class="current"><a href="">近期好货</a></li>
+            <li><a href="">新品汇聚</a></li>
+            <li><a href="">定制游</a></li>
+            <li><a href="">国内推荐</a></li>
+            <li><a href="">优惠机票</a></li>
+            <li><a href="">热门海岛</a></li>
+            <li><a href="">热卖签证</a></li>
+        </ul>
+    </nav>
+</div>
+<div class="bd">
+    <% include('../../../../components/loading/loading.art',{inline:true,text:'你卡了！'}) %>
+</div>

@@ -1,0 +1,20 @@
+/* 轮播图按钮 */
+.banner .center_wrap .btn {
+    position: absolute;
+    width: 28px;
+    height: 44px;
+    top: 50%;
+    margin-top: -22px;
+    background-image: url(images/XUEBI1.png);
+}
+.banner .center_wrap .leftbtn {
+    left: -38px;
+    background-position:  -42px -59px;
+}
+.banner .center_wrap .rightbtn {
+    right: -38px;
+    background-position: -41px -4px;
+}
+.banner .center_wrap .btn:hover {
+    opacity: .6;
+}

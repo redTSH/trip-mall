@@ -1,0 +1,37 @@
+<!-- {one: {…}, items: Array(5), more: {…}}items: (5) [{…}, {…}, {…}, {…}, {…}]more: {title: "机酒自由行产品", items: Array(4)}one: {url: "http://alimc.img.imooc.com/class/muyun/mall-PC/free/jjzyx_01.png", title: "[樱花季]天津直飞东京/大阪/名古屋/冲绳/札幌2-30天往返", extra-info: "含机票酒店", type: "机票"}__proto__: Object -->
+
+<ul>
+    <li class="big-grid">
+        <a href="">
+            <img src="{{one.url}}" alt="">
+            <div class="info">
+                <p>{{one.title}}</p>
+                <p>{{one['extra-info']}}</p>
+            </div>
+            <span class="tag">{{one.type}}</span>
+        </a>
+    </li>
+    {{each items}}
+    <li class="pro-grid">
+        <a href="">
+            <div class="picbox">
+                <img src="{{$value.url}}" alt="">
+                <span class="tag">{{$value.type}}</span>
+            </div>
+            <div class="wordsbox">{{$value.title}}</div>
+        </a>
+    </li>
+    {{/each}}
+    <li class="more-grid">
+        <a href="">
+            <p>查看更多</p>
+            <p>{{more.title}}</p>
+            <span class="iconfont">&#xe619;</span>
+            <ul>
+                {{each more.items}}
+                <li>{{$value}}</li>
+                {{/each}}
+            </ul>
+        </a>
+    </li>
+</ul>
